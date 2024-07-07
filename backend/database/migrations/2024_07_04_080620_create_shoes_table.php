@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('color')->nullable();
             $table->string('image')->nullable();
             $table->boolean('state');
-            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+//            $table->foreignId('user_id')->constrained()->onDelete('cascade');
         });
     }
 
